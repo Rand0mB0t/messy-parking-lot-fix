@@ -73,7 +73,7 @@ class Parking_lot(object):
         Returns the alloted slot
         '''
         if self._is_full():
-            raise IndexError("Parking lot is full")
+            raise IndexError("Parking lot is full, Cannot Park Car! ")
         utilized_slot = set(map(int, self._parked_cars.keys()))
         available_slots = set(range(1,self.total_slots+1)) - utilized_slot
         alloted_slot = min(available_slots)
