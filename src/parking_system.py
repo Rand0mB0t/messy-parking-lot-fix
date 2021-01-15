@@ -75,6 +75,8 @@ class Parking_manager():
                 driver_age = int(command_components[-1])
                 vehicle_reg_nums = parking_lot.query_get_vehicle_reg_num_with_driver_age(driver_age)
                 print(",".join(vehicle_reg_nums))
+            else:
+                print(f'"{action}" is not a recognized command.')
 
 
 if __name__ == "__main__":

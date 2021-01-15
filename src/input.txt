@@ -10,7 +10,7 @@ Park PB-01-TG-2341 driver_age 40
 Slot_number_for_car_with_number PB-01-HH-1234
 
 
-
+do_some_crazy_stuff command 23
 Leave 2
 Park HR-29-TG-3098 driver_age 39
 Park HR-29-TG-2098 driver_age 18
